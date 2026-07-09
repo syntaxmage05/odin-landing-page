@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, 'Courier New', Courier, monospace;
+}
+
+.hero {
+  background: #1f2937;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.site-header h1 {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #f9faf8;
+  font-size: 18px;
+}
+
+#hero-img img{
+  height: 200px;
+  width: 350px;
+}
+
+.main-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  color: #f9faf8;
+  border-radius: 12px;
+  padding: 7px 20px;
+  border: none;
+  background-color: #3882f6;
+}
+
+.main-text h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.main-text p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.main h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.main-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.img-container {
+  border: 2px solid #3882f6;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.wrapper-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimony {
+  margin-top: 60px;
+  background: #e5e7eb;
+  padding: 40px;
+  margin-bottom: 100px;
+}
+
+
+blockquote {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quote-container {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.testimony p {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.cta {
+  background: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cta #btn-cta {
+  border: 1px solid white;
+}
+
+footer {
+  background: #1f2937;
+  display: flex;
+  margin-top: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
